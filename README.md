@@ -1,17 +1,22 @@
 # pymongo-api
 
+## Где найти drawio схему
+
+Схема расположена в папке [drawio/task1](drawio/task1.drawio)
+
 ## Как запустить
 
-Запускаем mongodb и приложение
+Запускаем инфроструктуру и приложение
 
 ```shell
+cd ./sharding-repl-cache
 docker compose up -d
 ```
 
-Заполняем mongodb данными
+Инициализируем конфигурацию инфроструктуры и заполняем mongodb данными
 
 ```shell
-./scripts/mongo-init.sh
+./scripts/infra-init.sh-init.sh
 ```
 
 ## Как проверить
